@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Slotbook">
+
+    <Button
+        android:id="@+id/bu1"
+        android:layout_width="159dp"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/bakground1"
+        android:hint="Slot1"
+        android:textColorHint="#0E0E0E" />
+
+    <Button
+        android:id="@+id/bu2"
+        android:layout_width="165dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bakground1"
+        android:hint="Slot_2"
+        android:text="Button"
+        android:textColorHint="#0E0E0E" />
+
+    <Button
+        android:id="@+id/bu3"
+        android:layout_width="157dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="368dp"
+        android:background="@drawable/bakground1"
+        android:hint="Slot_3"
+        android:text="Button"
+        android:textColorHint="#0E0E0E" />
+
+    <Button
+        android:id="@+id/bu4"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="372dp"
+        android:background="@drawable/bakground1"
+        android:hint="SLOT_4"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/bu5"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="210dp"
+        android:background="@drawable/bakground1"
+        android:hint="Slot_5"
+        android:text="Button" />
+
+</RelativeLayout>
